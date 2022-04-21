@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -35,7 +36,7 @@ const Navbar = () => {
         Musicophile 
         </Typography>
         <Button color="inherit" >
-          log-out 
+         
         </Button>
       </Toolbar>
      {/* <ModalDialog open={open} handleClose={handleClose} /> */}
