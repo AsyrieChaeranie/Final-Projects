@@ -5,7 +5,7 @@ const Login = () => {
     const clientID = process.env.REACT_APP_CLIENT_ID;
     const redirectURI = 'http://localhost:3000/';
     const scope = 'playlist-modify-private';
-    var url = 'https://accounts.spotify.com/authorize';
+    var url = 'https://testfinal-one.vercel.app/';
     url += '?response_type=token';
     url += '&client_id=' + encodeURIComponent(clientID);
     url += '&scope=' + encodeURIComponent(scope);
