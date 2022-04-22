@@ -15,7 +15,7 @@ The name of this application is Musicophile which means One who likes songs from
 - [x] Save playlist - This will be Private playlist
 - [x] Search for songs - You can only select a song once in 1 playlist
 - [x] Select and delete songs - you can delete it before the playlist is created
-
+- [x] This Project use Material UI
 
 ## Technical Requirements
 - [x] Hooks : I use hooks on files
