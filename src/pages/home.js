@@ -23,8 +23,8 @@ const Home = () => {
 
   return (
     <div className='logincard'>
-      <h1>Spotify Playlist</h1>
-      <h2 className='aci'>Asyrie Chaeranie KM_G2FE4016</h2>
+      <h2>Spotify Playlist</h2>
+      <h3 className='aci'>Asyrie Chaeranie KM_G2FE4016</h3>
       <Login />
     </div>
   );
