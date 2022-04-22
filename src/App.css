@@ -188,10 +188,11 @@ button:hover {
   text-align: center;
 }
 
-@media screen and(min-width: 320px) and (max-width: 767px) {
+
+@media screen and (max-width: 600px) {
   .h1{
     color: white;
-    text-align : center;
+    text-align: center;
   }
   .h1,h2,label{
     color: white;
