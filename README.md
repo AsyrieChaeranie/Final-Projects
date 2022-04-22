@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Dokumentation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Musicophile
+The name of this application is Musicophile which means One who likes songs from his generation, the generation above it, and the generation after it. He is not picky just likes songs from his generation. This fits Gigi very well because Gigih is a young boy who loves music. Almost every day he listens to music on Spotify of various genres.
 
-## Available Scripts
+## Features 
+, , , , , .
+
+**In this application there are several features:**
+
+- [x] Login - You can't continue creating playlists if you're not logged in
+- [x] Add playlist name - minimum 10 characters
+- [x] Create Playlist Description - minimum 10 characters
+- [x] Save playlist - This will be Private playlist
+- [x] Search for songs - You can only select a song once in 1 playlist
+- [x] Select and delete songs - you can delete it before the playlist is created
+
+
+## Technical Requirements
+- [x] Hooks : I use hooks on files
+* ..\components\co_NavBar.js
+* ..\pages\CreatePlaylist_pages.js
+* (already commented)
+
+- [x] Flex & Grid : I use this on file
+* .\App.css
+* ..\components\co_NavBar.js
+* (already commented)
+
+- [x] Typescript
+* I have made but there is a problem
+* can be checked at the following link https://github.com/AsyrieChaeranie/Final-Project
+
+- [x] Redux : I use this on file
+* ..\Data\store.js
+
+- [x] Eslint : I enabled this on all files
+
+- [x] Testing :
+* * I have made but there is a problem
+* can be checked at the following link https://github.com/AsyrieChaeranie/Final-Project
+
+- [x] Documentation : I use this on file
+* .\README.md or this file
+
+## Installation
 
 In the project directory, you can run:
 
-### `npm start`
+note: 
+make sure you create a .env.local to change the `REACT_APP_CLIENT_ID` to get your ClientID from spotify API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## `npm install`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+it is recommended to start `npm install` for installing all the package included in this project
 
-### `npm test`
+## `npm start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Runs the app in the development mode.
+Open http://localhost:3000/ to view it in your browser.
 
-### `npm run build`
+## In Online
+* u can open this link vercel (https://vercel.com/asyriechaeranie/tesss)
+## In Local
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`localhost:3000/` : 
+The page will shows a login button and navbar Musicophile
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`localhost:3000/create-playlist` :
+- [x] if user already login (get an accessToken) 
+* The page will show Navbar of Musicophile
+* The page will show your pic profile and your account name
+* The page will show Create Playlist Form contain add name playlist and create description playlist
+* The page will show Search Song form
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [x] if user already search
+* The page will open track a row of songs according to what you are looking for
 
-### `npm run eject`
+- [x] if user haven't logged in => the page will redirect to `localhost:3000/`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+`localhost:3000/some-random-url` : 
+* The page will shows 404 Error Not Found 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+note : 
+- [x] This project was bootstrapped with [Create React App]
+- [x] This project is unresponsive
+- [x] This product is available in 1366x768 and 600px screen media

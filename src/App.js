@@ -2,7 +2,7 @@ import './App.css';
 import {Provider} from 'react-redux';
 import store from './Data/store';
 import AppRouter from './router';
-import Navbar from './components/NavBar'
+import Navbar from './components/co_NavBar'
 
 function App() {
   return (

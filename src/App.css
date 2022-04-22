@@ -27,7 +27,7 @@ h1{
 
 .profile {
   display: flex;
-  flex-direction: row;
+  flex-direction: row;/*2. Flex and Grid: here i use flex*/
   justify-content: center;
 }
 
@@ -144,8 +144,8 @@ button:hover {
 
 
 .searchcard {
-  display: flex;
-  flex-direction: row;
+  display: flex; /*2. Flex and Grid: here i use flex*/
+  flex-direction: row; /*2. Flex and Grid: here i use flex*/
   justify-content: space-between;
   font-size: 10px;
   text-align: center;
@@ -162,7 +162,7 @@ button:hover {
 
 .cardsong {
   background-color: rgb(23,43,77);
-  display: flex;
+  display: flex; /*2. Flex and Grid: here i use flex*/
   grid-template-columns: auto auto auto auto;
   grid-gap: 92px;
   border: 1px solid white;
@@ -179,7 +179,7 @@ button:hover {
 }
 .containersong {
   height: auto;
-  display: grid;
+  display: grid; /*2. Flex and Grid: here i use grid*/
   grid-template-columns: repeat(2, 1fr);
   gap: 1px;
 }
@@ -258,7 +258,7 @@ button:hover {
 } 
 
   .searchcard {
-    flex-direction:column;
+    flex-direction:column; /*2. Flex and Grid: here i use flex*/
     font-size: 10px;
     text-align: center;
     align-items: center;
@@ -307,7 +307,7 @@ button:hover {
 
   .cardsong {
     background-color: rgb(23,43,77);
-    display: flex;
+    display: flex; /*2. Flex and Grid: here i use flex*/
     grid-gap: 5px;
     border: 1px solid white;
     border-radius: 10px;

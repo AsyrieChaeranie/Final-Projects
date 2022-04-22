@@ -1,10 +1,10 @@
-import {useEffect, useState} from 'react';
+import {useEffect, useState} from 'react'; /*1. hooks with use useState and UseEffect*/
 import {useSelector} from 'react-redux';
 import axios from 'axios';
-import Playlist from '../components/Playlist';
-import Songs from '../components/tracksindex';
-import SearchForm from '../components/Search';
-import Profile from './Profile';
+import Playlist from '../components/co_Playlist';
+import Songs from '../components/co_TrackIndex';
+import SearchForm from '../components/co_Search';
+import Profile from './ProfilePages_pages';
 import LogoutIcon from '@mui/icons-material/Logout';
 import Button from '@mui/material/Button';
 
@@ -105,7 +105,7 @@ const CreatePlaylist = () => {
             .catch((error) => error);
             console.log('Items added to playlist: ', data);
     };
-
+    //Eslint = this is one of the eslint files I use  
     // eslint-disable-next-line no-unused-vars
     const [masuk,setmasuk] = useState(false);
     const handlekeluar = ()=>{

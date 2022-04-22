@@ -2,7 +2,7 @@ import {useEffect} from 'react';
 import {useHistory} from 'react-router-dom';
 import {useDispatch, useSelector} from 'react-redux';
 import queryString from 'query-string';
-import Login from './Login';
+import Login from './LoginPage_pages';
 import {setAccessToken} from '../Data/redux/accessTokenSlice';
 
 const Home = () => {

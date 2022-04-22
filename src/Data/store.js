@@ -1,3 +1,4 @@
+/*4. Redux = i use this Store */
 import {configureStore} from '@reduxjs/toolkit';
 import accessTokenSlice from './redux/accessTokenSlice';
 import userSlice from './redux/userSlice';

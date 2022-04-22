@@ -1,7 +1,7 @@
 import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
 import {useSelector} from 'react-redux';
-import CreatePlaylist from '../pages/CreatePlaylist';
-import Home from '../pages/home';
+import CreatePlaylist from '../pages/CreatePlaylist_pages';
+import Home from '../pages/HomePage_pages';
 const AppRouter = () => {
     const accessToken = useSelector((state) => state.accessToken.value);
     return (
@@ -11,7 +11,7 @@ const AppRouter = () => {
                 <Route path="/create-playlist">
                     {accessToken !== undefined ? <CreatePlaylist /> : <Redirect to="/" />}
                 </Route>
-                <Route path="*" component={() => (<h1>404</h1>)} />
+                <Route path="*" component={() => (<h1> 404 Error Not Found </h1>)} />
             </Switch>
         </Router >
     );
