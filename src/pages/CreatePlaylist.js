@@ -111,7 +111,7 @@ const CreatePlaylist = () => {
     const handlekeluar = ()=>{
         setmasuk(false);
         localStorage.clear();
-        window.location = `http://localhost:3000/`;
+        window.location = `https://testfinal-one.vercel.app/`;
     };
 
     return (
