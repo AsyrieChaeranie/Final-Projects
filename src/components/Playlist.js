@@ -2,7 +2,7 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 import SaveAltIcon from '@mui/icons-material/SaveAlt';
 
-const Playlist = ({hanldeAddPlaylist, handleAddSubmit, addPlaylistData}) => {
+const Playlist = ({hanldeAddPlaylist, handleAddSubmit, addPlaylistData, myFunction}) => {
     return (
         <div className="playlistform">
             <h2>Create Playlist</h2>
@@ -14,9 +14,11 @@ const Playlist = ({hanldeAddPlaylist, handleAddSubmit, addPlaylistData}) => {
                 <label> Description </label><br />
                 <textarea id="description" type="text" value={addPlaylistData.description} onChange={hanldeAddPlaylist} name="description" />
                 <br />
-                <Button type="submit" value="Submit" variant="contained" color="primary" startIcon={<SaveAltIcon />}> Save </Button>
-                <br></br>
-                <br></br>
+                <Button type="submit" value="Submit" variant="contained" color="primary"   onClick={() => {alert("✔️ the playlist will be saved in your spotivy, click for save");}} startIcon={<SaveAltIcon />}> Save </Button>
+                <script>
+                    (myFunction/)
+                </script>
+
             </form>
         </div>
     );
