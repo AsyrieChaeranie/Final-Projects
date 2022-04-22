@@ -2,8 +2,8 @@ import LoginIcon from '@mui/icons-material/AccountCircle';
 import Button from '@mui/material/Button';
 
 const Login = () => {
-    const clientID = process.env.REACT_APP_CLIENT_ID;
-    const redirectURI = 'https://your-next-auth-repo.vercel.app';
+    const clientID = '111a2b1610144484981575e1e442208c';
+    const redirectURI = 'http://localhost:3000/';
     const scope = 'playlist-modify-private';
     var url = 'https://accounts.spotify.com/authorize';
     url += '?response_type=token';
