@@ -14,7 +14,7 @@ const Playlist = ({hanldeAddPlaylist, handleAddSubmit, addPlaylistData, myFuncti
                 <label> Description </label><br />
                 <textarea id="description" type="text" value={addPlaylistData.description} onChange={hanldeAddPlaylist} name="description" />
                 <br />
-                <Button type="submit" value="Submit" variant="contained" color="primary"   onClick={() => {alert("clock oke for save, and check your playlist on your spotify ✔️ ");}} startIcon={<SaveAltIcon />}> Save </Button>
+                <Button type="submit" value="Submit" variant="contained" color="primary"   onClick={() => {alert("click oke for save, and check this playlist on your spotify ✔️ ");}} startIcon={<SaveAltIcon />}> Save </Button>
                 <script>
                     (myFunction/)
                 </script>
