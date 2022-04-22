@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 
 const Login = () => {
     const clientID = '111a2b1610144484981575e1e442208c';
-    const redirectURI = 'https://tesss-tawny.vercel.app/';
+    const redirectURI = 'https://musicophile.vercel.app/';
     const scope = 'playlist-modify-private';
     var url = 'https://accounts.spotify.com/authorize';
     url += '?response_type=token';

@@ -81,7 +81,7 @@ const CreatePlaylist = () => {
         const data = await axios
             .post(
                 `https://api.spotify.com/v1/users/${userID}/playlists`, bodyParams,
-                {
+                { 
                     headers: header
                 }
             )
@@ -111,7 +111,7 @@ const CreatePlaylist = () => {
     const handlekeluar = ()=>{
         setmasuk(false);
         localStorage.clear();
-        window.location = `https://testfinal-one.vercel.app/`;
+        window.location = `https://musicophile.vercel.app/`;
     };
 
     return (

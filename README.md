@@ -62,7 +62,6 @@ Open http://localhost:3000/ to view it in your browser.
 
 ## In Online
 * u can open this link vercel (https://musicophile.vercel.app/)
-
 ## In Local
 
 `localhost:3000/` : 
