@@ -116,8 +116,8 @@ const CreatePlaylist = () => {
 
     return (
         <>
-            <h2> Spotify</h2>
-            <h2>Create your Playlist</h2>
+            <h1> Spotify</h1>
+            <h1>Create your Playlist</h1>
             <div className='profileform'>
                 <Profile/>
                 <Button onClick={handlekeluar} size='large' variant="contained" color="primary" startIcon={<LogoutIcon />}> LOGOUT </Button>
