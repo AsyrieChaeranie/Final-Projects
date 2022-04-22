@@ -382,6 +382,10 @@ button:hover {
       color: white;
       border: 2px solid sa;
     }
+
+    .cardsong {
+      grid-gap: 10px;
+    }
   
 }
 
